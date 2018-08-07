@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to right, #e91e63, #3f51b5);
+}
+
+.button {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    box-shadow: none;
+    border-radius: 0px;
+    margin: 2px;   
+    border: 0;
+    background: none;
+    color: white;
+    text-decoration: none;
+}
+
+#zero {
+  width: 108px;
+}
+
+.textview{
+    width: 217px;
+    margin: 5px;
+    font-size: 25px;
+    padding: 5px;
+    border: none;
+    color: #607d8b;
+}
+
+.main{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translateX(-50%) translateY(-50%);
+    background: linear-gradient(to right, #7574FB, #73A0FC);
+    padding: 10px;
+    box-shadow: 3px 3px #3f51b5;
+}
